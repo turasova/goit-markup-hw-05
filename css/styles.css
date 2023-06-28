@@ -592,3 +592,95 @@ img {
     background-color: var(--active-color);
     border: none;
  }
+ .modal-text {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+   padding-top: 72px;
+   margin-bottom: 16px;
+ }
+ 
+ .modal-form {
+width: 360px;
+margin-right: 0;
+ }
+ 
+label {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 0;
+    min-width: 360px;
+    margin-bottom: 8px;
+    color: var(--lightslate, #8E8F99);
+font-size: 12px;
+font-family: Roboto;
+line-height: 14px;
+letter-spacing: 0.48px;
+  }
+  input {
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+    height: 40px;
+  }
+  textarea {
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+   
+  }
+  .checkbox{
+color: #8E8F99;
+font-size: 12px;
+font-family: Roboto;
+line-height: 14px;
+letter-spacing: 0.48px;
+flex-direction:row;
+align-items: baseline; 
+  }
+  .send-btn {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+width: 105px;
+height: 24px;
+   text-align: center; 
+   padding: 16px 32px;
+   margin-left: 119px;
+   margin-right: 0;
+   margin-top: 24px;
+   color: var(--fon-text-color);
+text-align: center;
+font-size: 16px;
+font-family: inherit;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.64px;
+border-radius: 4px;
+background: var(--logo-color);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  .checkbox-link {
+    color: var(--logo-color);
+  }
+ .modal-chekbox {
+display: inline-flex;
+width: 16px;
+height: 16px;
+border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+border-radius: 2px;
+align-items: center;
+justify-content: center;
+margin-right: 8px;
+fill: transparent;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .clic:checked + .checkbox .modal-chekbox {
+    background-color: var(--active-color);
+    border: none;
+    fill: var(--text-footer-color)
+ }

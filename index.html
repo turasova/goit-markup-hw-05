@@ -363,6 +363,38 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
+      <p class="modal-text">Leave your contacts and we will call you back</p>
+      <form class="modal-form">
+          <label class="name">
+            Name
+            <input type="text" name="name"/>
+          </label>
+          <label class="phone">
+            Phone
+            <input type="tel" name="phone" />
+          </label>
+          <label class="email">
+          Email
+          <input type="email" name="email" />
+        </label>
+        <label class="comment">
+          Comment
+          <textarea name="comment" rows="10" placeholder="Text input"></textarea>
+        </label>
+        <div class="modal-checbox-container">
+          <input class="clic visually-hidden" type="checkbox" name="user-checkbox" value="reading" />
+          <label class="checkbox">
+            <span class="modal-chekbox">
+              <svg class="icons-checkbox"  width="8" height="8">
+                <use href="./images/icons.svg#icon-click"></use>
+              </svg> 
+            </span>
+          I accept the terms and conditions of the
+          <a href="" class="checkbox-link"> Privacy Policy</a> 
+        </label>
+      </div>
+        <button type="submit" class="send-btn">Send</button>
+      </form>
   </div>
 </div>
 <script src="./js/modal.js"></script>
