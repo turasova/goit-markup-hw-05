@@ -354,6 +354,19 @@
     </li>
 </ul>
     </div>
+    <div class="footer-form-container"> 
+      <p class="footer-form-text">Subscribe</p>
+      <form class="footer-form">
+        <label class="footer-lable"> 
+          <input class="footer-input-email" type="email" name="email" placeholder="E-mail" />
+        </label>
+        <button class="footer-btn-subscrib" type="submit">Subscribe
+            <svg class="footer-icon-frame"  width="24" height="24">
+              <use href="./images/icons.svg#icon-frame"></use>
+            </svg> 
+        </button>
+      </form>
+    </div>
 </div>
 </footer>
 <div class="backdrop is-hidden" data-modal>
@@ -365,32 +378,44 @@
       </button>
       <p class="modal-text">Leave your contacts and we will call you back</p>
       <form class="modal-form">
-          <label class="name">
+        <div class="form-container">
+          <label class="form-label name">
             Name
-            <input type="text" name="name" placeholder=""/>
+            <input class="form-input" type="text" name="username"/>
             <span class="person-form">
-              <svg class="icons-checkbox"  width="18" height="18">
+              <svg class="icons-checkbox"  width="12" height="12">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg> 
             </span>
           </label>
-          <label class="phone">
+          <label class="form-label phone">
             Phone
-            <input type="tel" name="phone" />
+            <input class="form-input" type="tel" name="phone" />
+            <span class="phone-form">
+              <svg class="icons-checkbox"  width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg> 
+            </span>
           </label>
-          <label class="email">
+          <label class="form-label email">
           Email
-          <input type="email" name="email" />
+          <input class="form-input" type="email" name="email" />
+          <span class="email-form">
+            <svg class="icons-checkbox"  width="15" height="12">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg> 
+          </span>
         </label>
-        <label class="comment">
+        <label class="form-label comment">
           Comment
-          <textarea name="comment" rows="10" placeholder="Text input"></textarea>
+          <textarea class="comment-text" name="comment" rows="10" placeholder="Text input"></textarea>
         </label>
+      </div>
         <div class="modal-checbox-container">
-          <label class="checkbox option">
+          <label class="form-label checkbox option">
           <input class="clic visually-hidden" type="checkbox" name="user-checkbox" value="reading" />
             <span class="modal-chekbox">
-              <svg class="icons-checkbox"  width="10" height="8">
+              <svg class="icons-checkbox-clic"  width="16" height="16">
                 <use href="./images/icons.svg#icon-click"></use>
               </svg> 
             </span>
