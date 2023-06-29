@@ -431,6 +431,7 @@ line-height: 24px;
 letter-spacing: 0.48px;
 outline: none;
 margin-right: 24px;
+padding-left: 16px;
 }
 .footer-btn-subscrib {
 display: inline-flex;
@@ -691,6 +692,7 @@ color: var(--color-icons);
     transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
    transition-property: border;
+   padding-left: 38px;
   }
  .comment-text {
     border-radius: 4px;
@@ -723,7 +725,7 @@ color: var(--color-icons);
   .person-form {
     display: flex; 
     position: absolute; 
-    top:23px;
+    top:24px;
     left: 16px; 
   }
   .form-label:focus-within .icons-checkbox {
@@ -740,13 +742,13 @@ color: var(--color-icons);
   .phone-form {
     display: flex; 
     position: absolute; 
-    top:23px;
+    top:24px;
     left: 16px; 
   }
   .email-form {
     display: flex; 
     position: absolute; 
-    top:23px;
+    top:24px;
     left: 16px; 
   }
   .icons-checkbox {
@@ -754,7 +756,10 @@ color: var(--color-icons);
    height: 18px;
    fill: var(--secondary-color);
   }
-  
+  .icons-checkbox-clic {
+    border-radius: 2px;
+    border: 1px solid var(--form-border-color);
+  }
   .clic{
     position: absolute;
     clip: rect(0 0 0 0);
@@ -768,7 +773,6 @@ color: var(--color-icons);
   }
  .modal-chekbox {
 display: inline-flex;
-border: 1px solid var(--form-border-color);
 border-radius: 2px;
 align-items: center;
 justify-content: center;
@@ -776,9 +780,9 @@ margin-right: 8px;
 fill: transparent;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 margin-left: 24px;
+align-items: baseline;
  }
  .clic:checked + .modal-chekbox {
-    stroke: var(--text-footer-color);
     border: none;
     background-color: var(--active-color);
  }
