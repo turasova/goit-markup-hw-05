@@ -731,8 +731,7 @@ color: var(--color-icons);
   }
   .icons-checkbox {
     fill: var(--secondary-color);
-   transition-property: fill;
-   position: absolute;
+    position: absolute;
    left: 16px ;
    top: 50%;
    transform: translateY(-50%);
@@ -781,6 +780,7 @@ color: var(--color-icons);
     letter-spacing: 0.04em;
     color: var(--color-icons);
  }
+
  .modal-chekbox-option {
     width: 16px; 
     height: 16px;
@@ -791,17 +791,18 @@ color: var(--color-icons);
     align-items: center; 
     justify-content: center; 
     fill: transparent;
+   
 }
 .clic:checked + .form-label-checkbox .modal-chekbox-option  {
     border: none;
-    background-color: var(--active-color);
-   
+    background-color: var(--active-color);  
+    fill:var(--text-footer-color); 
  }
   .send-btn {
     min-width: 169px;
     height: 56px;
     font-size: 16px;
-    font-family: Roboto;
+    font-family:"Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
