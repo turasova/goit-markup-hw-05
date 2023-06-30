@@ -749,7 +749,7 @@ color: var(--color-icons);
   .user-form-container {
     position: relative;
   }
-  .form-label:focus-within .icons-checkbox {
+  .user-form-container:focus-within .icons-checkbox {
     fill: var(--logo-color);
   }
   
