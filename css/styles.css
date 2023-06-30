@@ -17,6 +17,7 @@
 --border-modal-btn:rgba(0, 0, 0, 0.10);
 --background-backgrop: rgba(46, 47, 66, 0.4);
 --form-border-color:rgba(46, 47, 66, 0.40);
+--border-color-click-hover:#9747FF;
 }
 
 body {
@@ -339,7 +340,6 @@ img {
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text-footer-color);
     max-width: 264px;
     margin-right: 0;
@@ -425,7 +425,6 @@ flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid var(--fon-text-color);
 box-shadow: 0px 4px 4px 0px var(--box-shadow-hero-bt-color);
-/* background: var(--secondary-color); */
 background-color: transparent;
 color: var(--fon-text-color);
 font-size: 12px;
@@ -464,7 +463,6 @@ transition-property: background-color;
 }
 .footer-icon-frame {
     fill: var(--fon-text-color);
-    margin-left: 16px;
 }
 .portfolio {
     padding-top: 96px;
@@ -736,8 +734,7 @@ color: var(--color-icons);
    top: 50%;
    transform: translateY(-50%);
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   }
-   
+   }  
   .form-label {
     position: relative;
     transition-duration: 250ms;
@@ -792,7 +789,10 @@ color: var(--color-icons);
     justify-content: center; 
     fill: transparent;
    
-}
+ }
+ .modal-chekbox-option:hover {
+    border-color: var(--border-color-click-hover);
+ } 
 .clic:checked + .form-label-checkbox .modal-chekbox-option  {
     border: none;
     background-color: var(--active-color);  
