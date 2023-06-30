@@ -757,6 +757,9 @@ color: var(--color-icons);
     border: 1px solid var(--logo-color);
     outline: none;
   }
+  .comment {
+    margin-bottom: 16px;
+  }
   .modal-checbox-container {
     margin-bottom: 24px; 
   }
